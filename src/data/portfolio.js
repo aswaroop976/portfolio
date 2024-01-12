@@ -1,7 +1,7 @@
 export default [
     {
         title: 'Unix-like 32 bit x86 operating system',
-        imgUrl: '',
+        imgUrl: '/assets/391os.png',
         stack: ['C', 'x86asm'],
         link: '',
     },
