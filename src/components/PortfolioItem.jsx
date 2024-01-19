@@ -1,6 +1,20 @@
 import React from "react";
+import {Outlet, Link} from "react-router-dom"
+
 
 function PortfolioItem({title, imgUrl, stack, link}) {
+    function router_link(){
+        if(link === "/os"){
+            return(<li>
+                {link}
+            </li>)
+        }
+        else if(link === "/portfolio"){
+            return(<li>
+                {link}
+            </li>)
+        }
+    }
     return (
         <div className="border-2 border-stone-900 
         rounded-md overflow-hidden">
@@ -20,6 +34,8 @@ function PortfolioItem({title, imgUrl, stack, link}) {
                         </span>
                     ))}
                 </p>
+                {/* <div><p>{link}</p></div> */}
+                <div>{router_link()}</div>
             </div>
         </div>
     )

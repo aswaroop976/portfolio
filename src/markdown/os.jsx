@@ -8,4 +8,4 @@ function OsMarkdown() {
     )
 }
 
-export default PortfolioItem;
+export default OsMarkdown;

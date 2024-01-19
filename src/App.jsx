@@ -19,9 +19,9 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
-      <Routes>
+      {/* <Routes>
         
-      </Routes>
+      </Routes> */}
     </div>
   )
   // const [count, setCount] = useState(0)
