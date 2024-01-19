@@ -5,7 +5,13 @@ function Contact() {
         <div className="flex flex-col mb-10 mx-auto">
             <div className="flex justify-center 
             items-center">
-                <form action = "https://getform.io/f/3c8e02b4-03e5-41b6-8892-c5e26c840141"
+                <p>
+                    Reach out to me: <br></br>
+                    Email: aswar3@illinois.edu
+                    <br></br>
+                    Phone: 402-913-5141
+                </p>
+                {/* <form action = "https://getform.io/f/3c8e02b4-03e5-41b6-8892-c5e26c840141"
                 method = "POST"
                 className="flex flex-col w-full md:w-7/
                 12">
@@ -36,7 +42,7 @@ function Contact() {
                     >
                         Work With Me
                     </button>
-                </form>
+                </form> */}
             </div>
         </div>
     )
