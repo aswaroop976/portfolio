@@ -5,6 +5,12 @@ import Portfolio from './components/portfolio'
 import Contact from './components/contact'
 import Footer from './components/footer'
 import Intro from './components/intro'
+import OsMarkdown from './markdown/os'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom"
 
 function App() {
   return (
@@ -13,6 +19,9 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
+      <Routes>
+        
+      </Routes>
     </div>
   )
   // const [count, setCount] = useState(0)

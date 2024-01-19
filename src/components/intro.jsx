@@ -9,7 +9,8 @@ function Intro() {
             <p className="text-base md:text-xl
             mb-3 font-medium">Computer Engineering student at UIUC</p>
             <p className="text-sm max-w-xl
-            mb-6 font-bold">This is my bio</p>
+            mb-6 font-bold">This is my portfolio, where
+            I will showcase my software projects I have worked on personally or in school</p>
         </div>
     )
 }

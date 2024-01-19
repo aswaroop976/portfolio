@@ -6,9 +6,9 @@ export default [
         link: '',
     },
     {
-        title: 'Chat-app',
+        title: 'Portfolio Website',
         imgUrl: '',
-        stack: ['GoLang', 'HTML', 'CSS', 'JavaScript'],
+        stack: ['React', 'Tailwind', 'Vite'],
         link: '', //host your website dumbass
     },
     //add your cs411 project here
